@@ -1,0 +1,620 @@
+; Thu Mar 30 13:50:48 CEST 2017
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([Category] of  %3ASTANDARD-CLASS
+
+	(%3ASLOT-CONSTRAINTS [IA-P7-V1_Class5]))
+
+([IA-P7-V1_Class10018] of  App
+
+	(Developer "Guardian News & Media Ltd")
+	(Downloads 1000000.0)
+	(hasAge Adults)
+	(hasCategory News)
+	(hasPrice 0.0)
+	(hasRate 5_Star)
+	(nombre "The Guardian")
+	(OS Both)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10019] of  App
+
+	(Developer "El País")
+	(Downloads 1000000.0)
+	(hasAge All)
+	(hasCategory News)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "El País")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10020] of  App
+
+	(Developer "Shifty Jelly")
+	(Downloads 500000.0)
+	(hasAge All)
+	(hasCategory News)
+	(hasPrice 2.99)
+	(hasRate 5_Star)
+	(nombre "Pocket Casts")
+	(OS iOS)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10021] of  App
+
+	(Developer "AppDawn")
+	(Downloads 1000.0)
+	(hasAge Adults)
+	(hasCategory News)
+	(hasPrice 0.59)
+	(hasRate 5_Star)
+	(nombre "News Reader Pro")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10022] of  App
+
+	(Developer "Flipboard")
+	(Downloads 5.0E8)
+	(hasAge All)
+	(hasCategory News)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "Flipboard: News for any topic")
+	(OS Android)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10023] of  App
+
+	(Developer "Hillside Technology Limited")
+	(Downloads 500000.0)
+	(hasAge Adults)
+	(hasCategory Sports)
+	(hasPrice 2.99)
+	(hasRate 3_Star)
+	(nombre "bet365 News")
+	(OS Both)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10024] of  App
+
+	(Developer "BeSoccer Apps")
+	(Downloads 5000000.0)
+	(hasAge All)
+	(hasCategory Sports)
+	(hasPrice 0.0)
+	(hasRate 5_Star)
+	(nombre "BeSoccer")
+	(OS iOS)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10025] of  App
+
+	(Developer "Formula One Digital Media Limited")
+	(Downloads 1000000.0)
+	(hasAge All)
+	(hasCategory Sports)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "Official F1 App")
+	(OS Both)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10026] of  App
+
+	(Developer "aortizgasoft")
+	(Downloads 1000.0)
+	(hasAge Adults)
+	(hasCategory Sports)
+	(hasPrice 4.69)
+	(hasRate 5_Star)
+	(nombre "Basketball Statistics")
+	(OS Android)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10027] of  App
+
+	(Developer "Dorna Sports S.L.")
+	(Downloads 100000.0)
+	(hasAge All)
+	(hasCategory Sports)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "MotoGP")
+	(OS Both)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10028] of  App
+
+	(Developer "Alina Lyvette")
+	(Downloads 50000.0)
+	(hasAge Adults)
+	(hasCategory Social_Media)
+	(hasPrice 3.19)
+	(hasRate 4_Star)
+	(nombre "Lumiya")
+	(OS iOS)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10029] of  App
+
+	(Developer "Snap Inc")
+	(Downloads 5.0E8)
+	(hasAge All)
+	(hasCategory Social_Media)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "Snapchat")
+	(OS Both)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10030] of  App
+
+	(Developer "Tapatalk Inc")
+	(Downloads 100000.0)
+	(hasAge All)
+	(hasCategory Social_Media)
+	(hasPrice 3.29)
+	(hasRate 4_Star)
+	(nombre "Tapatalk Pro")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10031] of  App
+
+	(Developer "JPPC")
+	(Downloads 1000.0)
+	(hasAge Adults)
+	(hasCategory Social_Media)
+	(hasPrice 1.49)
+	(hasRate 2_Star)
+	(nombre "Omegle")
+	(OS Android)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10032] of  App
+
+	(Developer "Instagram")
+	(Downloads 1.0E12)
+	(hasAge All)
+	(hasCategory Social_Media)
+	(hasPrice 0.0)
+	(hasRate 5_Star)
+	(nombre "Instagram")
+	(OS Both)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10033] of  App
+
+	(Developer "Fast Access")
+	(Downloads 1000.0)
+	(hasAge Adults)
+	(hasCategory Productivity)
+	(hasPrice 0.0)
+	(hasRate 5_Star)
+	(nombre "FastHub for GitHub")
+	(OS Android)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10034] of  App
+
+	(Developer "Wallwisher Inc")
+	(Downloads 100000.0)
+	(hasAge Adults)
+	(hasCategory Productivity)
+	(hasPrice 1.99)
+	(hasRate 4_Star)
+	(nombre "Padlet")
+	(OS iOS)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10035] of  App
+
+	(Developer "Autodesc Inc")
+	(Downloads 1.0E7)
+	(hasAge Adults)
+	(hasCategory Productivity)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "AutoCAD 360")
+	(OS Android)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10036] of  App
+
+	(Developer "Evernote Corporation")
+	(Downloads 1.0E8)
+	(hasAge All)
+	(hasCategory Productivity)
+	(hasPrice 0.0)
+	(hasRate 5_Star)
+	(nombre "Evernote")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10037] of  App
+
+	(Developer "INTSIG")
+	(Downloads 500000.0)
+	(hasAge All)
+	(hasCategory Productivity)
+	(hasPrice 2.29)
+	(hasRate 5_Star)
+	(nombre "CamScanner")
+	(OS Both)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10038] of  App
+
+	(Developer "Skyscanner Ltd")
+	(Downloads 1.0E7)
+	(hasAge Adults)
+	(hasCategory Travelling)
+	(hasPrice 2.99)
+	(hasRate 5_Star)
+	(nombre "Skyscanner")
+	(OS iOS)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10039] of  App
+
+	(Developer "Renfe Viajeros")
+	(Downloads 1000000.0)
+	(hasAge Adults)
+	(hasCategory Travelling)
+	(hasPrice 1.99)
+	(hasRate 3_Star)
+	(nombre "Renfe Tickets")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10040] of  App
+
+	(Developer "FlightRadar24 AB")
+	(Downloads 1000000.0)
+	(hasAge Adults)
+	(hasCategory Travelling)
+	(hasPrice 2.49)
+	(hasRate 5_Star)
+	(nombre "FlightRadar24")
+	(OS Both)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10041] of  App
+
+	(Developer "Booking.com")
+	(Downloads 5.0E7)
+	(hasAge Adults)
+	(hasCategory Travelling)
+	(hasPrice 0.0)
+	(hasRate 5_Star)
+	(nombre "Booking")
+	(OS Android)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10042] of  App
+
+	(Developer "BlaBlaCar")
+	(Downloads 1.0E7)
+	(hasAge Adults)
+	(hasCategory Travelling)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "BlaBlaCar")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10043] of  App
+
+	(Developer "Spotify Ltd")
+	(Downloads 1.0E8)
+	(hasAge All)
+	(hasCategory Music)
+	(hasPrice 0.0)
+	(hasRate 5_Star)
+	(nombre "Spotify")
+	(OS Both)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10044] of  App
+
+	(Developer "SoundCloud")
+	(Downloads 1.0E8)
+	(hasAge Adults)
+	(hasCategory Music)
+	(hasPrice 10.99)
+	(hasRate 3_Star)
+	(nombre "SoundCloud")
+	(OS Both)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10045] of  App
+
+	(Developer "Max MP")
+	(Downloads 1000000.0)
+	(hasAge All)
+	(hasCategory Music)
+	(hasPrice 3.5)
+	(hasRate 4_Star)
+	(nombre "PowerAmp")
+	(OS Android)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10046] of  App
+
+	(Developer "Musixmatch")
+	(Downloads 1.0E7)
+	(hasAge All)
+	(hasCategory Music)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "Musixmatch Lyrics")
+	(OS iOS)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10047] of  App
+
+	(Developer "Technimo")
+	(Downloads 100000.0)
+	(hasAge Adults)
+	(hasCategory Music)
+	(hasPrice 10.99)
+	(hasRate 5_Star)
+	(nombre "iReal Pro MusicBook")
+	(OS iOS)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10048] of  App
+
+	(Developer "GP International")
+	(Downloads 5000000.0)
+	(hasAge Adults)
+	(hasCategory Health)
+	(hasPrice 0.0)
+	(hasRate 5_Star)
+	(nombre "Period Tracker")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10049] of  App
+
+	(Developer "Xiaomi Technology")
+	(Downloads 5000000.0)
+	(hasAge Adults)
+	(hasCategory Health)
+	(hasPrice 2.99)
+	(hasRate 3_Star)
+	(nombre "MiFit")
+	(OS iOS)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10050] of  App
+
+	(Developer "Sanitas")
+	(Downloads 100000.0)
+	(hasAge Adults)
+	(hasCategory Health)
+	(hasPrice 0.0)
+	(hasRate 3_Star)
+	(nombre "Mi Sanitas")
+	(OS Android)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10051] of  App
+
+	(Developer "Apple")
+	(Downloads 2000000.0)
+	(hasAge Adults)
+	(hasCategory Health)
+	(hasPrice 4.99)
+	(hasRate 4_Star)
+	(nombre "Heath App")
+	(OS iOS)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10052] of  App
+
+	(Developer "Comunidad de Madrid")
+	(Downloads 200000.0)
+	(hasAge Adults)
+	(hasCategory Health)
+	(hasPrice 0.0)
+	(hasRate 2_Star)
+	(nombre "Cita Sanitaria Madrid")
+	(OS Android)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10053] of  App
+
+	(Developer "LaFourchette")
+	(Downloads 1000000.0)
+	(hasAge Adults)
+	(hasCategory Gastronomy)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "The Fork")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10054] of  App
+
+	(Developer "Retails Media SL")
+	(Downloads 10000.0)
+	(hasAge Adults)
+	(hasCategory Gastronomy)
+	(hasPrice 0.0)
+	(hasRate 3_Star)
+	(nombre "Ruttapa")
+	(OS Android)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10055] of  App
+
+	(Developer "Michelin")
+	(Downloads 500.0)
+	(hasAge Adults)
+	(hasCategory Gastronomy)
+	(hasPrice 14.99)
+	(hasRate 4_Star)
+	(nombre "Michelin Guide Europe 2017")
+	(OS Android)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10056] of  App
+
+	(Developer "Just-Eat Holding Limited")
+	(Downloads 1000000.0)
+	(hasAge Adults)
+	(hasCategory Gastronomy)
+	(hasPrice 0.0)
+	(hasRate 3_Star)
+	(nombre "Just Eat")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10057] of  App
+
+	(Developer "Lakefront Software")
+	(Downloads 2000000.0)
+	(hasAge Adults)
+	(hasCategory Gastronomy)
+	(hasPrice 10.0)
+	(hasRate 4_Star)
+	(nombre "BigOven")
+	(OS iOS)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10058] of  App
+
+	(Developer "Gameloft")
+	(Downloads 1.0E7)
+	(hasAge All)
+	(hasCategory Games)
+	(hasPrice 2.99)
+	(hasRate 3_Star)
+	(nombre "Star Batallion")
+	(OS iOS)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10059] of  App
+
+	(Developer "Mojan")
+	(Downloads 1.0E7)
+	(hasAge Children)
+	(hasCategory Games)
+	(hasPrice 6.99)
+	(hasRate 5_Star)
+	(nombre "Minecraft")
+	(OS Both)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10060] of  App
+
+	(Developer "RockStar")
+	(Downloads 1000000.0)
+	(hasAge Adults)
+	(hasCategory Games)
+	(hasPrice 4.99)
+	(hasRate 4_Star)
+	(nombre "GTA: Vice City")
+	(OS Both)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10061] of  App
+
+	(Developer "RobTop")
+	(Downloads 1000000.0)
+	(hasAge All)
+	(hasCategory Games)
+	(hasPrice 1.99)
+	(hasRate 5_Star)
+	(nombre "Geometry Dash")
+	(OS Android)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10062] of  App
+
+	(Developer "Rovio")
+	(Downloads 1.0E8)
+	(hasAge Children)
+	(hasCategory Games)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "Angry Birds")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10063] of  App
+
+	(Developer "Udemy")
+	(Downloads 1000000.0)
+	(hasAge Adults)
+	(hasCategory Education)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "Udemy Online Courses")
+	(OS Android)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10064] of  App
+
+	(Developer "Autoinet")
+	(Downloads 1000000.0)
+	(hasAge Adults)
+	(hasCategory Education)
+	(hasPrice 0.0)
+	(hasRate 4_Star)
+	(nombre "TodoTest")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class10065] of  App
+
+	(Developer "Noctua Software Limited")
+	(Downloads 100000.0)
+	(hasAge Children)
+	(hasCategory Education)
+	(hasPrice 2.59)
+	(hasRate 5_Star)
+	(nombre "Stellarium Mobile Sky Map")
+	(OS Both)
+	(Phone_Req 3))
+
+([IA-P7-V1_Class10066] of  App
+
+	(Developer "Photomath, Inc")
+	(Downloads 700000.0)
+	(hasAge Adults)
+	(hasCategory Education)
+	(hasPrice 20.0)
+	(hasRate 5_Star)
+	(nombre "Photomath")
+	(OS Both)
+	(Phone_Req 2))
+
+([IA-P7-V1_Class10067] of  App
+
+	(Developer "Duolingo")
+	(Downloads 4000000.0)
+	(hasAge All)
+	(hasCategory Education)
+	(hasPrice 0.0)
+	(hasRate 5_Star)
+	(nombre "Duolingo")
+	(OS Both)
+	(Phone_Req 1))
+
+([IA-P7-V1_Class20034] of  User
+
+	(Aficiones Game)
+	(nombre "Raul")
+	(Phone_Req 3))
+
+([IA-P7-V1_Class5] of  %3APAL-CONSTRAINT
+)
+
+([Jess+engine] of  %3AJESS-ENGINE
+)

@@ -1,0 +1,1654 @@
+; Thu Mar 30 13:50:48 CEST 2017
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([17_ProjectKB_Class124] of  String
+
+	(name "SearchTab_Query"))
+
+([ANNOTATED_INSTANCE_WIDGET] of  Widget
+
+	(name ":ANNOTATED-INSTANCE"))
+
+([ANNOTATION_TEXT_WIDGET] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(name ":ANNOTATION-TEXT")
+	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([BROWSER_SLOT_NAMES] of  Property_List
+
+	(properties
+		[IA-P7-V1_ProjectKB_Class20017]
+		[IA-P7-V1_ProjectKB_Class20018]
+		[IA-P7-V1_ProjectKB_Class20019]
+		[IA-P7-V1_ProjectKB_Class20020]
+		[IA-P7-V1_ProjectKB_Class20021]
+		[IA-P7-V1_ProjectKB_Class20022]))
+
+([CLSES_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesTab"))
+
+([CREATION_TIMESTAMP_WIDGET] of  Widget
+
+	(name ":CREATION-TIMESTAMP"))
+
+([CREATOR_WIDGET] of  Widget
+
+	(name ":CREATOR"))
+
+([FORMS_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.FormsTab"))
+
+([IA-P7-V1_ProjectKB_Class1] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [IA-P7-V1_ProjectKB_Class2])
+	(widget_class_name "se.liu.ida.JessTab.JessTab"))
+
+([IA-P7-V1_ProjectKB_Class10] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10004] of  Widget
+
+	(is_hidden FALSE)
+	(name ":JESS-ENGINE")
+	(property_list [IA-P7-V1_ProjectKB_Class10011])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([IA-P7-V1_ProjectKB_Class10011] of  Property_List
+
+	(properties
+		[IA-P7-V1_ProjectKB_Class10012]
+		[IA-P7-V1_ProjectKB_Class10013]
+		[IA-P7-V1_ProjectKB_Class10015]))
+
+([IA-P7-V1_ProjectKB_Class10012] of  Property_List
+
+	(name "layout properties"))
+
+([IA-P7-V1_ProjectKB_Class10013] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Startup file name")
+	(name ":STARTUP-FILE")
+	(property_list [IA-P7-V1_ProjectKB_Class10014])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class10014] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10015] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Startup expression")
+	(name ":STARTUP-EXPRESSION")
+	(property_list [IA-P7-V1_ProjectKB_Class10016])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 250)
+	(x 0)
+	(y 120))
+
+([IA-P7-V1_ProjectKB_Class10016] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10017] of  Widget
+
+	(is_hidden FALSE)
+	(name ":JESS-RULE")
+	(property_list [IA-P7-V1_ProjectKB_Class10028])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([IA-P7-V1_ProjectKB_Class10028] of  Property_List
+
+	(properties
+		[IA-P7-V1_ProjectKB_Class10029]
+		[IA-P7-V1_ProjectKB_Class10030]
+		[IA-P7-V1_ProjectKB_Class10032]
+		[IA-P7-V1_ProjectKB_Class10034]
+		[IA-P7-V1_ProjectKB_Class10036]))
+
+([IA-P7-V1_ProjectKB_Class10029] of  Property_List
+
+	(name "layout properties"))
+
+([IA-P7-V1_ProjectKB_Class10030] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [IA-P7-V1_ProjectKB_Class10031])
+	(widget_class_name "se.liu.ida.JessTab.JessDocumentationWidget")
+	(width 200)
+	(x 250)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class10031] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10032] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":DEFINITION-NAME")
+	(property_list [IA-P7-V1_ProjectKB_Class10033])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class10033] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10034] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Save definition in knowledge base")
+	(name ":KB-SAVE")
+	(property_list [IA-P7-V1_ProjectKB_Class10035])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 250)
+	(x 0)
+	(y 380))
+
+([IA-P7-V1_ProjectKB_Class10035] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10036] of  Widget
+
+	(height 250)
+	(is_hidden FALSE)
+	(label "Jess definition")
+	(name ":DEFINITION")
+	(property_list [IA-P7-V1_ProjectKB_Class10037])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionWidget")
+	(width 450)
+	(x 0)
+	(y 120))
+
+([IA-P7-V1_ProjectKB_Class10037] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10038] of  Widget
+
+	(is_hidden FALSE)
+	(name ":JESS-FUNCTION")
+	(property_list [IA-P7-V1_ProjectKB_Class10049])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([IA-P7-V1_ProjectKB_Class10049] of  Property_List
+
+	(properties
+		[IA-P7-V1_ProjectKB_Class10050]
+		[IA-P7-V1_ProjectKB_Class10051]
+		[IA-P7-V1_ProjectKB_Class10053]
+		[IA-P7-V1_ProjectKB_Class10055]
+		[IA-P7-V1_ProjectKB_Class10057]))
+
+([IA-P7-V1_ProjectKB_Class10050] of  Property_List
+
+	(name "layout properties"))
+
+([IA-P7-V1_ProjectKB_Class10051] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [IA-P7-V1_ProjectKB_Class10052])
+	(widget_class_name "se.liu.ida.JessTab.JessDocumentationWidget")
+	(width 200)
+	(x 250)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class10052] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10053] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":DEFINITION-NAME")
+	(property_list [IA-P7-V1_ProjectKB_Class10054])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class10054] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10055] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Save definition in knowledge base")
+	(name ":KB-SAVE")
+	(property_list [IA-P7-V1_ProjectKB_Class10056])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 250)
+	(x 0)
+	(y 380))
+
+([IA-P7-V1_ProjectKB_Class10056] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10057] of  Widget
+
+	(height 250)
+	(is_hidden FALSE)
+	(label "Jess definition")
+	(name ":DEFINITION")
+	(property_list [IA-P7-V1_ProjectKB_Class10058])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionWidget")
+	(width 450)
+	(x 0)
+	(y 120))
+
+([IA-P7-V1_ProjectKB_Class10058] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10059] of  Widget
+
+	(is_hidden FALSE)
+	(name ":JESS-DEFGLOBAL")
+	(property_list [IA-P7-V1_ProjectKB_Class10068])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([IA-P7-V1_ProjectKB_Class10068] of  Property_List
+
+	(properties
+		[IA-P7-V1_ProjectKB_Class10069]
+		[IA-P7-V1_ProjectKB_Class10070]
+		[IA-P7-V1_ProjectKB_Class10072]
+		[IA-P7-V1_ProjectKB_Class10074]))
+
+([IA-P7-V1_ProjectKB_Class10069] of  Property_List
+
+	(name "layout properties"))
+
+([IA-P7-V1_ProjectKB_Class10070] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":DEFINITION-NAME")
+	(property_list [IA-P7-V1_ProjectKB_Class10071])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class10071] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10072] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Save definition in knowledge base")
+	(name ":KB-SAVE")
+	(property_list [IA-P7-V1_ProjectKB_Class10073])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 250)
+	(x 0)
+	(y 380))
+
+([IA-P7-V1_ProjectKB_Class10073] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10074] of  Widget
+
+	(height 250)
+	(is_hidden FALSE)
+	(label "Jess definition")
+	(name ":DEFINITION")
+	(property_list [IA-P7-V1_ProjectKB_Class10075])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionWidget")
+	(width 450)
+	(x 0)
+	(y 120))
+
+([IA-P7-V1_ProjectKB_Class10075] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10076] of  Widget
+
+	(is_hidden FALSE)
+	(name ":JESS-DEFTEMPLATE")
+	(property_list [IA-P7-V1_ProjectKB_Class10087])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([IA-P7-V1_ProjectKB_Class10087] of  Property_List
+
+	(properties
+		[IA-P7-V1_ProjectKB_Class10088]
+		[IA-P7-V1_ProjectKB_Class10089]
+		[IA-P7-V1_ProjectKB_Class10091]
+		[IA-P7-V1_ProjectKB_Class10093]
+		[IA-P7-V1_ProjectKB_Class10095]))
+
+([IA-P7-V1_ProjectKB_Class10088] of  Property_List
+
+	(name "layout properties"))
+
+([IA-P7-V1_ProjectKB_Class10089] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [IA-P7-V1_ProjectKB_Class10090])
+	(widget_class_name "se.liu.ida.JessTab.JessDocumentationWidget")
+	(width 200)
+	(x 250)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class10090] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10091] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":DEFINITION-NAME")
+	(property_list [IA-P7-V1_ProjectKB_Class10092])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class10092] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10093] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Save definition in knowledge base")
+	(name ":KB-SAVE")
+	(property_list [IA-P7-V1_ProjectKB_Class10094])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 250)
+	(x 0)
+	(y 380))
+
+([IA-P7-V1_ProjectKB_Class10094] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10095] of  Widget
+
+	(height 250)
+	(is_hidden FALSE)
+	(label "Jess definition")
+	(name ":DEFINITION")
+	(property_list [IA-P7-V1_ProjectKB_Class10096])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionWidget")
+	(width 450)
+	(x 0)
+	(y 120))
+
+([IA-P7-V1_ProjectKB_Class10096] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10097] of  Widget
+
+	(is_hidden FALSE)
+	(name ":JESS-DEFFACTS")
+	(property_list [IA-P7-V1_ProjectKB_Class10108])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([IA-P7-V1_ProjectKB_Class10108] of  Property_List
+
+	(properties
+		[IA-P7-V1_ProjectKB_Class10109]
+		[IA-P7-V1_ProjectKB_Class10110]
+		[IA-P7-V1_ProjectKB_Class10112]
+		[IA-P7-V1_ProjectKB_Class10114]
+		[IA-P7-V1_ProjectKB_Class10116]))
+
+([IA-P7-V1_ProjectKB_Class10109] of  Property_List
+
+	(name "layout properties"))
+
+([IA-P7-V1_ProjectKB_Class10110] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [IA-P7-V1_ProjectKB_Class10111])
+	(widget_class_name "se.liu.ida.JessTab.JessDocumentationWidget")
+	(width 200)
+	(x 250)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class10111] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10112] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":DEFINITION-NAME")
+	(property_list [IA-P7-V1_ProjectKB_Class10113])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class10113] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10114] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Save definition in knowledge base")
+	(name ":KB-SAVE")
+	(property_list [IA-P7-V1_ProjectKB_Class10115])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 250)
+	(x 0)
+	(y 380))
+
+([IA-P7-V1_ProjectKB_Class10115] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10116] of  Widget
+
+	(height 250)
+	(is_hidden FALSE)
+	(label "Jess definition")
+	(name ":DEFINITION")
+	(property_list [IA-P7-V1_ProjectKB_Class10117])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionWidget")
+	(width 450)
+	(x 0)
+	(y 120))
+
+([IA-P7-V1_ProjectKB_Class10117] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class10118] of  Widget
+
+	(is_hidden FALSE)
+	(name ":JESS-DEFMESSAGE-HANDLER")
+	(property_list [IA-P7-V1_ProjectKB_Class20129])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([IA-P7-V1_ProjectKB_Class11] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class12])
+	(widget_class_name "ezpal.EZPalTab"))
+
+([IA-P7-V1_ProjectKB_Class12] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class13] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class14])
+	(widget_class_name "edu.stanford.smi.protegex.server_changes.prompt.UsersTab"))
+
+([IA-P7-V1_ProjectKB_Class14] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class15] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class16])
+	(widget_class_name "ca.uvic.csr.shrimp.jambalaya.JambalayaTab"))
+
+([IA-P7-V1_ProjectKB_Class16] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class17] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class18])
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.InstanceTreeTab"))
+
+([IA-P7-V1_ProjectKB_Class18] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class19] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class20])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalConstraintsTab"))
+
+([IA-P7-V1_ProjectKB_Class2] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20017] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([IA-P7-V1_ProjectKB_Class20018] of  String
+
+	(name ":RULE")
+	(string_value "%3ADEFINITION-NAME"))
+
+([IA-P7-V1_ProjectKB_Class20019] of  String
+
+	(name ":FUNCTION")
+	(string_value "%3ADEFINITION-NAME"))
+
+([IA-P7-V1_ProjectKB_Class20020] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([IA-P7-V1_ProjectKB_Class20021] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([IA-P7-V1_ProjectKB_Class20022] of  String
+
+	(name ":JESS-DEFINITION")
+	(string_value "%3ADEFINITION-NAME"))
+
+([IA-P7-V1_ProjectKB_Class20023] of  Map_Entry
+
+	(key "add_name_on_instance_form")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([IA-P7-V1_ProjectKB_Class20024] of  Map_Entry
+
+	(key "change_tracking_active")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([IA-P7-V1_ProjectKB_Class20025] of  Map_Entry
+
+	(key "suppress_instance_counting")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([IA-P7-V1_ProjectKB_Class20029] of  Property_List
+
+	(name "layout properties"))
+
+([IA-P7-V1_ProjectKB_Class20030] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20031] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20032] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20033] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20129] of  Property_List
+
+	(properties
+		[IA-P7-V1_ProjectKB_Class20130]
+		[IA-P7-V1_ProjectKB_Class20131]
+		[IA-P7-V1_ProjectKB_Class20133]
+		[IA-P7-V1_ProjectKB_Class20135]
+		[IA-P7-V1_ProjectKB_Class20137]))
+
+([IA-P7-V1_ProjectKB_Class20130] of  Property_List
+
+	(name "layout properties"))
+
+([IA-P7-V1_ProjectKB_Class20131] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [IA-P7-V1_ProjectKB_Class20132])
+	(widget_class_name "se.liu.ida.JessTab.JessDocumentationWidget")
+	(width 200)
+	(x 250)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class20132] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20133] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":DEFINITION-NAME")
+	(property_list [IA-P7-V1_ProjectKB_Class20134])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class20134] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20135] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Save definition in knowledge base")
+	(name ":KB-SAVE")
+	(property_list [IA-P7-V1_ProjectKB_Class20136])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 250)
+	(x 0)
+	(y 380))
+
+([IA-P7-V1_ProjectKB_Class20136] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20137] of  Widget
+
+	(height 250)
+	(is_hidden FALSE)
+	(label "Jess definition")
+	(name ":DEFINITION")
+	(property_list [IA-P7-V1_ProjectKB_Class20138])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionWidget")
+	(width 450)
+	(x 0)
+	(y 120))
+
+([IA-P7-V1_ProjectKB_Class20138] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20139] of  Widget
+
+	(is_hidden FALSE)
+	(name ":JESS-DEFMETHOD")
+	(property_list [IA-P7-V1_ProjectKB_Class20150])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([IA-P7-V1_ProjectKB_Class20150] of  Property_List
+
+	(properties
+		[IA-P7-V1_ProjectKB_Class20151]
+		[IA-P7-V1_ProjectKB_Class20152]
+		[IA-P7-V1_ProjectKB_Class20154]
+		[IA-P7-V1_ProjectKB_Class20156]
+		[IA-P7-V1_ProjectKB_Class20158]))
+
+([IA-P7-V1_ProjectKB_Class20151] of  Property_List
+
+	(name "layout properties"))
+
+([IA-P7-V1_ProjectKB_Class20152] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [IA-P7-V1_ProjectKB_Class20153])
+	(widget_class_name "se.liu.ida.JessTab.JessDocumentationWidget")
+	(width 200)
+	(x 250)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class20153] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20154] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":DEFINITION-NAME")
+	(property_list [IA-P7-V1_ProjectKB_Class20155])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([IA-P7-V1_ProjectKB_Class20155] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20156] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Save definition in knowledge base")
+	(name ":KB-SAVE")
+	(property_list [IA-P7-V1_ProjectKB_Class20157])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 250)
+	(x 0)
+	(y 380))
+
+([IA-P7-V1_ProjectKB_Class20157] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class20158] of  Widget
+
+	(height 250)
+	(is_hidden FALSE)
+	(label "Jess definition")
+	(name ":DEFINITION")
+	(property_list [IA-P7-V1_ProjectKB_Class20159])
+	(widget_class_name "se.liu.ida.JessTab.JessDefinitionWidget")
+	(width 450)
+	(x 0)
+	(y 120))
+
+([IA-P7-V1_ProjectKB_Class20159] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class21] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class22])
+	(widget_class_name "uk.ac.man.ac.mig.coode.individuals.ui.OWLDLIndividualsTab"))
+
+([IA-P7-V1_ProjectKB_Class22] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class23] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class24])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab"))
+
+([IA-P7-V1_ProjectKB_Class24] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class25] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class26])
+	(widget_class_name "edu.stanford.smi.protegex.evaluation.MetaAnalysis"))
+
+([IA-P7-V1_ProjectKB_Class26] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class27] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class28])
+	(widget_class_name "uk.ac.man.cs.mig.coode.owlviz.ui.OWLVizTab"))
+
+([IA-P7-V1_ProjectKB_Class28] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class29] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class30])
+	(widget_class_name "edu.stanford.smi.protege.query.LuceneQueryPlugin"))
+
+([IA-P7-V1_ProjectKB_Class3] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class4])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadatatab.OWLMetadataTab"))
+
+([IA-P7-V1_ProjectKB_Class30] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class31] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class32])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.cls.OWLClassesTab"))
+
+([IA-P7-V1_ProjectKB_Class32] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class33] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class34])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.individuals.OWLIndividualsTab"))
+
+([IA-P7-V1_ProjectKB_Class34] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class35] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class36])
+	(widget_class_name "org.protege.owl.mm.portability.protege3.MappingMasterTab"))
+
+([IA-P7-V1_ProjectKB_Class36] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class37] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class38])
+	(widget_class_name "edu.stanford.smi.protegex.changeanalysis.ChangeAnalysisTab"))
+
+([IA-P7-V1_ProjectKB_Class38] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class39] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class40])
+	(widget_class_name "TGViztab.TGVizTab"))
+
+([IA-P7-V1_ProjectKB_Class4] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class40] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class41] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class42])
+	(widget_class_name "edu.stanford.smi.protegex.changes.changesKBViewTab.ChangesKBViewTab"))
+
+([IA-P7-V1_ProjectKB_Class42] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class43] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class44])
+	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab"))
+
+([IA-P7-V1_ProjectKB_Class44] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class45] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class46])
+	(widget_class_name "edu.stanford.smi.protegex.xml.tab.XMLTab"))
+
+([IA-P7-V1_ProjectKB_Class46] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class47] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class48])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalQueriesTab"))
+
+([IA-P7-V1_ProjectKB_Class48] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class49] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class50])
+	(widget_class_name "edu.stanford.smi.protegex.chatPlugin.ChatTab"))
+
+([IA-P7-V1_ProjectKB_Class5] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class6])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLPropertiesTab"))
+
+([IA-P7-V1_ProjectKB_Class50] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class51] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class52])
+	(widget_class_name "org.protege.owl.axiome.ui.AxiomeTab"))
+
+([IA-P7-V1_ProjectKB_Class52] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class53] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class54])
+	(widget_class_name "edu.stanford.smi.protege.keywordsearch.StringSearch"))
+
+([IA-P7-V1_ProjectKB_Class54] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class55] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class56])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormsTab"))
+
+([IA-P7-V1_ProjectKB_Class56] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class57] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class58])
+	(widget_class_name "script.ProtegeScriptTab"))
+
+([IA-P7-V1_ProjectKB_Class58] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class59] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class60])
+	(widget_class_name "edu.stanford.smi.protegex.changes.ChangesTab"))
+
+([IA-P7-V1_ProjectKB_Class6] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class60] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class61] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class62])
+	(widget_class_name "edu.stanford.smi.protegex.owl.swrl.ui.tab.SWRLTab"))
+
+([IA-P7-V1_ProjectKB_Class62] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class63] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class64])
+	(widget_class_name "edu.stanford.smi.protegex.fctab.FacetConstraintsTab"))
+
+([IA-P7-V1_ProjectKB_Class64] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class65] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class66])
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.KnowledgeTreeTab"))
+
+([IA-P7-V1_ProjectKB_Class66] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class67] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class68])
+	(widget_class_name "edu.stanford.smi.protegex.datamaster.DataMasterTab"))
+
+([IA-P7-V1_ProjectKB_Class68] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class69] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class70])
+	(widget_class_name "dfki.protege.ontoviz_tab.OntovizTab"))
+
+([IA-P7-V1_ProjectKB_Class7] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class8])
+	(widget_class_name "edu.stanford.smi.protege.widget.ProtegePropertiesTab"))
+
+([IA-P7-V1_ProjectKB_Class70] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class71] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class72])
+	(widget_class_name "edu.stanford.smi.protegex.changes.stats.ChangeStatisticsTab"))
+
+([IA-P7-V1_ProjectKB_Class72] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class73] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class74])
+	(widget_class_name "edu.stanford.smi.protegex.prompt.PromptTab"))
+
+([IA-P7-V1_ProjectKB_Class74] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class8] of  Property_List
+)
+
+([IA-P7-V1_ProjectKB_Class9] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [IA-P7-V1_ProjectKB_Class10])
+	(widget_class_name "uk.ac.man.cs.mig.coode.debugger.test.DebuggerTestTab"))
+
+([INSTANCE_ANNOTATION_FORM_WIDGET] of  Widget
+
+	(height 476)
+	(is_hidden FALSE)
+	(name ":INSTANCE-ANNOTATION")
+	(property_list [INSTANCE_ANNOTATION_PROPERTY_LIST])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 603)
+	(x 0)
+	(y 0))
+
+([INSTANCE_ANNOTATION_PROPERTY_LIST] of  Property_List
+
+	(properties
+		[ANNOTATED_INSTANCE_WIDGET]
+		[CREATOR_WIDGET]
+		[CREATION_TIMESTAMP_WIDGET]
+		[ANNOTATION_TEXT_WIDGET]))
+
+([INSTANCES_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
+
+([KB_393029_Class3] of  Map
+)
+
+([KB_950637_Class0] of  String
+
+	(name "factory_class_name")
+	(string_value "edu.stanford.smi.protege.storage.clips.ClipsKnowledgeBaseFactory"))
+
+([KB_950637_Class1] of  Map
+
+	(entries
+		[IA-P7-V1_ProjectKB_Class20023]
+		[IA-P7-V1_ProjectKB_Class20024]
+		[IA-P7-V1_ProjectKB_Class20025]))
+
+([KB_950637_Class122] of  String
+
+	(name "classes_file_name")
+	(string_value "IA-P7-V1.pont"))
+
+([KB_950637_Class123] of  String
+
+	(name "instances_file_name")
+	(string_value "IA-P7-V1.pins"))
+
+([KB_950637_Class77] of  Property_List
+
+	(properties
+		[KB_950637_Class78]
+		[KB_950637_Class79]))
+
+([KB_950637_Class78] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([KB_950637_Class79] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([KB_950637_Class80] of  Property_List
+)
+
+([KB_950637_Class81] of  Property_List
+)
+
+([KB_950637_Class82] of  Property_List
+
+	(properties
+		[KB_950637_Class83]
+		[KB_950637_Class84]))
+
+([KB_950637_Class83] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move up"))
+
+([KB_950637_Class84] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move down"))
+
+([KB_950637_Class85] of  Property_List
+)
+
+([KB_950637_Class86] of  Property_List
+
+	(name "layout properties"))
+
+([KB_950637_Class87] of  Property_List
+)
+
+([KB_950637_Class88] of  Property_List
+)
+
+([KB_950637_Class89] of  Property_List
+)
+
+([KB_950637_Class90] of  Property_List
+)
+
+([KB_950637_Class91] of  Property_List
+)
+
+([KB_950637_Class92] of  Property_List
+)
+
+([KB_950637_Class93] of  Property_List
+)
+
+([KB_950637_Class94] of  Property_List
+)
+
+([KB_950637_Class95] of  Property_List
+)
+
+([KB_950637_Class96] of  Property_List
+)
+
+([KB_950637_Class97] of  Property_List
+)
+
+([KB_950637_Class98] of  Property_List
+
+	(properties [17_ProjectKB_Class124]))
+
+([LAYOUT_PROPERTIES] of  Property_List
+
+	(name "layout properties")
+	(properties [VERTICAL_STRETCHER]))
+
+([option_instance] of  Options
+
+	(confirm_on_remove FALSE)
+	(display_abstract_class_icon TRUE)
+	(display_hidden_classes TRUE)
+	(display_multi_parent_class_icon TRUE)
+	(is_readonly FALSE)
+	(tabbed_instance_form_layout FALSE)
+	(undo_enabled TRUE)
+	(update_modification_slots FALSE))
+
+([PAL_DESCRIPTION_WIDGET] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Description")
+	(name ":PAL-DESCRIPTION")
+	(property_list [IA-P7-V1_ProjectKB_Class20031])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 275)
+	(y 0))
+
+([PAL_FORM_WIDGET] of  Widget
+
+	(height 476)
+	(is_hidden FALSE)
+	(name ":PAL-CONSTRAINT")
+	(property_list [PAL_PROPERTY_LIST])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 603)
+	(x 0)
+	(y 0))
+
+([PAL_NAME_WIDGET] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":PAL-NAME")
+	(property_list [IA-P7-V1_ProjectKB_Class20030])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 275)
+	(x 0)
+	(y 0))
+
+([PAL_PROPERTY_LIST] of  Property_List
+
+	(properties
+		[PAL_NAME_WIDGET]
+		[PAL_RANGE_WIDGET]
+		[PAL_DESCRIPTION_WIDGET]
+		[PAL_STATEMENT_WIDGET]
+		[IA-P7-V1_ProjectKB_Class20029]))
+
+([PAL_RANGE_WIDGET] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Range")
+	(name ":PAL-RANGE")
+	(property_list [IA-P7-V1_ProjectKB_Class20032])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalRangeWidget")
+	(width 250)
+	(x 275)
+	(y 180))
+
+([PAL_STATEMENT_WIDGET] of  Widget
+
+	(height 300)
+	(is_hidden FALSE)
+	(label "Statement")
+	(name ":PAL-STATEMENT")
+	(property_list [IA-P7-V1_ProjectKB_Class20033])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalConstraintWidget")
+	(width 275)
+	(x 0)
+	(y 60))
+
+([PROJECT] of  Project
+
+	(browser_slot_names [BROWSER_SLOT_NAMES])
+	(customized_instance_widgets
+		[IA-P7-V1_ProjectKB_Class10004]
+		[IA-P7-V1_ProjectKB_Class10059]
+		[IA-P7-V1_ProjectKB_Class10097]
+		[STANDARD_FACET_FORM_WIDGET]
+		[PAL_FORM_WIDGET]
+		[IA-P7-V1_ProjectKB_Class10076]
+		[STANDARD_CLASS_FORM_WIDGET]
+		[IA-P7-V1_ProjectKB_Class10017]
+		[IA-P7-V1_ProjectKB_Class10038]
+		[INSTANCE_ANNOTATION_FORM_WIDGET]
+		[IA-P7-V1_ProjectKB_Class10118]
+		[STANDARD_SLOT_FORM_WIDGET]
+		[IA-P7-V1_ProjectKB_Class20139])
+	(default_cls_metaclass ":STANDARD-CLASS")
+	(default_facet_metaclass ":STANDARD-FACET")
+	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(default_slot_metaclass ":STANDARD-SLOT")
+	(journaling_enabled FALSE)
+	(next_frame_number 0)
+	(options [option_instance])
+	(property_map [KB_950637_Class1])
+	(sources [SOURCES])
+	(tabs
+		[CLSES_TAB]
+		[SLOTS_TAB]
+		[FORMS_TAB]
+		[INSTANCES_TAB]
+		[QUERIES_TAB]
+		[IA-P7-V1_ProjectKB_Class37]
+		[IA-P7-V1_ProjectKB_Class59]
+		[IA-P7-V1_ProjectKB_Class23]
+		[IA-P7-V1_ProjectKB_Class67]
+		[IA-P7-V1_ProjectKB_Class9]
+		[IA-P7-V1_ProjectKB_Class63]
+		[IA-P7-V1_ProjectKB_Class17]
+		[IA-P7-V1_ProjectKB_Class15]
+		[IA-P7-V1_ProjectKB_Class1]
+		[IA-P7-V1_ProjectKB_Class43]
+		[IA-P7-V1_ProjectKB_Class65]
+		[IA-P7-V1_ProjectKB_Class29]
+		[IA-P7-V1_ProjectKB_Class25]
+		[IA-P7-V1_ProjectKB_Class69]
+		[IA-P7-V1_ProjectKB_Class21]
+		[IA-P7-V1_ProjectKB_Class55]
+		[IA-P7-V1_ProjectKB_Class19]
+		[IA-P7-V1_ProjectKB_Class73]
+		[IA-P7-V1_ProjectKB_Class7]
+		[IA-P7-V1_ProjectKB_Class57]
+		[IA-P7-V1_ProjectKB_Class53]
+		[IA-P7-V1_ProjectKB_Class39]
+		[IA-P7-V1_ProjectKB_Class45]
+		[IA-P7-V1_ProjectKB_Class51]
+		[IA-P7-V1_ProjectKB_Class41]
+		[IA-P7-V1_ProjectKB_Class71]
+		[IA-P7-V1_ProjectKB_Class49]
+		[IA-P7-V1_ProjectKB_Class11]
+		[IA-P7-V1_ProjectKB_Class35]
+		[IA-P7-V1_ProjectKB_Class31]
+		[IA-P7-V1_ProjectKB_Class33]
+		[IA-P7-V1_ProjectKB_Class3]
+		[IA-P7-V1_ProjectKB_Class5]
+		[IA-P7-V1_ProjectKB_Class27]
+		[IA-P7-V1_ProjectKB_Class47]
+		[IA-P7-V1_ProjectKB_Class61]
+		[IA-P7-V1_ProjectKB_Class13]))
+
+([QUERIES_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(property_list [KB_950637_Class98])
+	(widget_class_name "edu.stanford.smi.protegex.queries_tab.QueriesTab"))
+
+([SLOTS_TAB] of  Widget
+
+	(is_hidden FALSE)
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotsTab"))
+
+([SOURCES] of  Property_List
+
+	(properties
+		[KB_950637_Class0]
+		[KB_950637_Class122]
+		[KB_950637_Class123]))
+
+([STANDARD_CLASS_CONSTRAINTS_WIDGET] of  Widget
+
+	(height 120)
+	(label "Constraints")
+	(name ":SLOT-CONSTRAINTS")
+	(property_list [KB_950637_Class77])
+	(widget_class_name "edu.stanford.smi.protege.widget.ConstraintsWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([STANDARD_CLASS_DIRECT_INSTANCES_WIDGET] of  Widget
+
+	(name ":DIRECT-INSTANCES"))
+
+([STANDARD_CLASS_DIRECT_SUBCLASSES_WIDGET] of  Widget
+
+	(name ":DIRECT-SUBCLASSES"))
+
+([STANDARD_CLASS_DIRECT_SUPERCLASSES_WIDGET] of  Widget
+
+	(name ":DIRECT-SUPERCLASSES"))
+
+([STANDARD_CLASS_DIRECT_TYPE_WIDGET] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([STANDARD_CLASS_DOCUMENTATION_WIDGET] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [KB_950637_Class80])
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([STANDARD_CLASS_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-CLASS")
+	(property_list [STANDARD_CLASS_WIDGETS])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([STANDARD_CLASS_NAME_WIDGET] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(property_list [KB_950637_Class81])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([STANDARD_CLASS_ROLE_WIDGET] of  Widget
+
+	(height 60)
+	(label "Role")
+	(name ":ROLE")
+	(property_list [KB_950637_Class85])
+	(widget_class_name "edu.stanford.smi.protege.widget.RoleWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([STANDARD_CLASS_TEMPLATE_SLOTS_WIDGET] of  Widget
+
+	(height 150)
+	(label "Template Slots")
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(property_list [KB_950637_Class82])
+	(widget_class_name "edu.stanford.smi.protege.widget.TemplateSlotsWidget")
+	(width 600)
+	(x 0)
+	(y 120))
+
+([STANDARD_CLASS_WIDGETS] of  Property_List
+
+	(name "class widget properties")
+	(properties
+		[STANDARD_CLASS_CONSTRAINTS_WIDGET]
+		[STANDARD_CLASS_DIRECT_INSTANCES_WIDGET]
+		[STANDARD_CLASS_DIRECT_SUBCLASSES_WIDGET]
+		[STANDARD_CLASS_DIRECT_SUPERCLASSES_WIDGET]
+		[STANDARD_CLASS_DOCUMENTATION_WIDGET]
+		[STANDARD_CLASS_NAME_WIDGET]
+		[STANDARD_CLASS_ROLE_WIDGET]
+		[STANDARD_CLASS_DIRECT_TYPE_WIDGET]
+		[STANDARD_CLASS_TEMPLATE_SLOTS_WIDGET]
+		[LAYOUT_PROPERTIES]))
+
+([STANDARD_FACET_ASSOCIATED_SLOT_WIDGET] of  Widget
+
+	(height 60)
+	(label "Associated Slot")
+	(name ":ASSOCIATED-SLOT")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([STANDARD_FACET_DOCUMENTATION_WIDGET] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([STANDARD_FACET_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-FACET")
+	(property_list [STANDARD_FACET_WIDGETS])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([STANDARD_FACET_NAME_WIDGET] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([STANDARD_FACET_WIDGETS] of  Property_List
+
+	(name "facet widget properties")
+	(properties
+		[STANDARD_FACET_NAME_WIDGET]
+		[STANDARD_FACET_DOCUMENTATION_WIDGET]
+		[STANDARD_FACET_ASSOCIATED_SLOT_WIDGET]))
+
+([STANDARD_SLOT_ASSOCIATED_FACET_WIDGET] of  Widget
+
+	(name ":ASSOCIATED-FACET"))
+
+([STANDARD_SLOT_CONSTRAINTS_WIDGET] of  Widget
+
+	(name ":SLOT-CONSTRAINTS"))
+
+([STANDARD_SLOT_DEFAULT_VALUE_WIDGET] of  Widget
+
+	(height 90)
+	(label "Default")
+	(name ":SLOT-DEFAULTS")
+	(property_list [KB_950637_Class89])
+	(widget_class_name "edu.stanford.smi.protege.widget.DefaultValuesWidget")
+	(width 200)
+	(x 400)
+	(y 90))
+
+([STANDARD_SLOT_DIRECT_DOMAIN_WIDGET] of  Widget
+
+	(height 95)
+	(label "Domain")
+	(name ":DIRECT-DOMAIN")
+	(property_list [KB_950637_Class87])
+	(widget_class_name "edu.stanford.smi.protege.widget.DirectDomainWidget")
+	(width 200)
+	(x 400)
+	(y 180))
+
+([STANDARD_SLOT_DIRECT_TYPE_WIDGET] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([STANDARD_SLOT_DOCUMENTATION_WIDGET] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [KB_950637_Class90])
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([STANDARD_SLOT_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-SLOT")
+	(property_list [STANDARD_SLOT_WIDGETS])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([STANDARD_SLOT_INVERSE_WIDGET] of  Widget
+
+	(height 60)
+	(label "Inverse Slot")
+	(name ":SLOT-INVERSE")
+	(property_list [KB_950637_Class96])
+	(widget_class_name "edu.stanford.smi.protege.widget.InverseSlotWidget")
+	(width 200)
+	(x 200)
+	(y 215))
+
+([STANDARD_SLOT_MAXIMUM_CARDINALITY_WIDGET] of  Widget
+
+	(height 35)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(property_list [KB_950637_Class95])
+	(widget_class_name "edu.stanford.smi.protege.widget.MaximumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 180))
+
+([STANDARD_SLOT_MAXIMUM_VALUE_WIDGET] of  Widget
+
+	(height 60)
+	(label "Maximum")
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(property_list [KB_950637_Class91])
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMaximumWidget")
+	(width 100)
+	(x 100)
+	(y 215))
+
+([STANDARD_SLOT_MINIMUM_CARDINALITY_WIDGET] of  Widget
+
+	(height 60)
+	(label "Cardinality")
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(property_list [KB_950637_Class94])
+	(widget_class_name "edu.stanford.smi.protege.widget.MinimumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([STANDARD_SLOT_MINIMUM_VALUE_WIDGET] of  Widget
+
+	(height 60)
+	(label "Minimum")
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(property_list [KB_950637_Class92])
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMinimumWidget")
+	(width 100)
+	(x 0)
+	(y 215))
+
+([STANDARD_SLOT_NAME_WIDGET] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(property_list [KB_950637_Class93])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([STANDARD_SLOT_SUBSLOTS_WIDGET] of  Widget
+
+	(name ":DIRECT-SUBSLOTS"))
+
+([STANDARD_SLOT_SUPERSLOTS_WIDGET] of  Widget
+
+	(name ":DIRECT-SUPERSLOTS"))
+
+([STANDARD_SLOT_TYPE_WIDGET] of  Widget
+
+	(height 155)
+	(label "Value Type")
+	(name ":SLOT-VALUE-TYPE")
+	(property_list [KB_950637_Class97])
+	(widget_class_name "edu.stanford.smi.protege.widget.ValueTypeWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([STANDARD_SLOT_VALUES_WIDGET] of  Widget
+
+	(height 90)
+	(label "Template Values")
+	(name ":SLOT-VALUES")
+	(property_list [KB_950637_Class88])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotValuesWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([STANDARD_SLOT_WIDGETS] of  Property_List
+
+	(name "slot widget properties")
+	(properties
+		[STANDARD_SLOT_MINIMUM_CARDINALITY_WIDGET]
+		[STANDARD_SLOT_MAXIMUM_CARDINALITY_WIDGET]
+		[STANDARD_SLOT_CONSTRAINTS_WIDGET]
+		[STANDARD_SLOT_DIRECT_TYPE_WIDGET]
+		[STANDARD_SLOT_DIRECT_DOMAIN_WIDGET]
+		[STANDARD_SLOT_VALUES_WIDGET]
+		[STANDARD_SLOT_SUPERSLOTS_WIDGET]
+		[STANDARD_SLOT_SUBSLOTS_WIDGET]
+		[STANDARD_SLOT_DEFAULT_VALUE_WIDGET]
+		[STANDARD_SLOT_DOCUMENTATION_WIDGET]
+		[STANDARD_SLOT_MAXIMUM_VALUE_WIDGET]
+		[STANDARD_SLOT_MINIMUM_VALUE_WIDGET]
+		[STANDARD_SLOT_ASSOCIATED_FACET_WIDGET]
+		[STANDARD_SLOT_NAME_WIDGET]
+		[STANDARD_SLOT_INVERSE_WIDGET]
+		[STANDARD_SLOT_TYPE_WIDGET]
+		[KB_950637_Class86]))
+
+([VERTICAL_STRETCHER] of  String
+
+	(name "vertical_stretcher")
+	(string_value ":DIRECT-TEMPLATE-SLOTS"))

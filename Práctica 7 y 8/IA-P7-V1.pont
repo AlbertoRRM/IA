@@ -1,0 +1,381 @@
+; Thu Mar 30 13:50:48 CEST 2017
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot Categoria
+		(type SYMBOL)
+		(allowed-values Education Gastronomy Health Music News Productivity Social_Media Sports Travelling)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot hasSO
+		(type SYMBOL)
+		(allowed-values iOS Android Both)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Downloads
+		(type FLOAT)
+		(range 0.0 %3FVARIABLE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ADEFINITION-NAME
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Developer
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot OS
+		(type SYMBOL)
+		(allowed-values Both Android iOS)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot hasCategory
+		(type SYMBOL)
+		(allowed-values Education Games Gastronomy Health Music News Productivity Social_Media Sports Travelling)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot hasAge
+		(type SYMBOL)
+		(allowed-values Adults Children All)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot %3AKB-SAVE
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ASTARTUP-FILE
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ASTARTUP-EXPRESSION
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Puntuacion
+		(type INTEGER)
+		(range 1 5)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ADEFINITION
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot hasRate
+		(type SYMBOL)
+		(allowed-values 1_Star 2_Star 3_Star 4_Star 5_Star)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot Recommended
+		(type INSTANCE)
+;+		(allowed-classes App)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Aficiones
+;+		(comment "PREGUNTAR PARA TENERLO EN USER Y APP A LA VES")
+		(type SYMBOL)
+		(allowed-values Game Social_Media Productivity News Gastronomy Education Travelling Sports Music Health)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot Phone_Req
+		(type INTEGER)
+		(range 1 3)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot hasPrice
+		(type FLOAT)
+		(range 0.0 %3FVARIABLE)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass %3AJESS-ENGINE
+	(is-a %3ASYSTEM-CLASS)
+	(role concrete)
+	(single-slot %3ASTARTUP-FILE
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ASTARTUP-EXPRESSION
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass %3AJESS-DEFINITION
+	(is-a %3ASYSTEM-CLASS)
+	(role abstract)
+	(single-slot %3ADEFINITION-NAME
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3AKB-SAVE
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ADEFINITION
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass %3AJESS-DEFGLOBAL
+	(is-a %3AJESS-DEFINITION)
+	(role concrete))
+
+(defclass %3AJESS-DEFTEMPLATE
+	(is-a %3AJESS-DEFINITION)
+	(role concrete)
+	(multislot %3ADOCUMENTATION
+		(type STRING)
+		(create-accessor read-write)))
+
+(defclass %3AJESS-DEFFACTS
+	(is-a %3AJESS-DEFINITION)
+	(role concrete)
+	(multislot %3ADOCUMENTATION
+		(type STRING)
+		(create-accessor read-write)))
+
+(defclass %3AJESS-DEFMESSAGE-HANDLER
+	(is-a %3AJESS-DEFINITION)
+	(role concrete)
+	(multislot %3ADOCUMENTATION
+		(type STRING)
+		(create-accessor read-write)))
+
+(defclass %3AJESS-DEFMETHOD
+	(is-a %3AJESS-DEFINITION)
+	(role concrete)
+	(multislot %3ADOCUMENTATION
+		(type STRING)
+		(create-accessor read-write)))
+
+(defclass %3ARULE
+	(is-a %3ASYSTEM-CLASS)
+	(role abstract)
+	(single-slot %3ADEFINITION-NAME
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ADEFINITION
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass %3AJESS-RULE
+	(is-a %3AJESS-DEFINITION %3ARULE)
+	(role concrete)
+	(multislot %3ADOCUMENTATION
+		(type STRING)
+		(create-accessor read-write)))
+
+(defclass %3AFUNCTION
+	(is-a %3ASYSTEM-CLASS)
+	(role abstract)
+	(single-slot %3ADEFINITION-NAME
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot %3ADEFINITION
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass %3AJESS-FUNCTION
+	(is-a %3AFUNCTION %3AJESS-DEFINITION)
+	(role concrete)
+	(multislot %3ADOCUMENTATION
+		(type STRING)
+		(create-accessor read-write)))
+
+(defclass User
+	(is-a USER)
+	(role concrete)
+	(single-slot Phone_Req
+		(type INTEGER)
+		(range 1 3)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Recommended
+		(type INSTANCE)
+;+		(allowed-classes App)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Aficiones
+;+		(comment "PREGUNTAR PARA TENERLO EN USER Y APP A LA VES")
+		(type SYMBOL)
+		(allowed-values Game Social_Media Productivity News Gastronomy Education Travelling Sports Music Health)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write)))
+
+(defclass Category
+	(is-a USER)
+	(role concrete))
+
+(defclass Education
+	(is-a Category)
+	(role concrete))
+
+(defclass Games
+	(is-a Category)
+	(role concrete))
+
+(defclass Gastronomy
+	(is-a Category)
+	(role concrete))
+
+(defclass Health
+	(is-a Category)
+	(role concrete))
+
+(defclass Music
+	(is-a Category)
+	(role concrete))
+
+(defclass News
+	(is-a Category)
+	(role concrete))
+
+(defclass Productivity
+	(is-a Category)
+	(role concrete))
+
+(defclass Social_Media
+	(is-a Category)
+	(role concrete))
+
+(defclass Sports
+	(is-a Category)
+	(role concrete))
+
+(defclass Travelling
+	(is-a Category)
+	(role concrete))
+
+(defclass SO
+	(is-a USER)
+	(role concrete))
+
+(defclass iOS
+	(is-a SO)
+	(role concrete))
+
+(defclass Android
+	(is-a SO)
+	(role concrete))
+
+(defclass Both
+	(is-a SO)
+	(role concrete))
+
+(defclass Rate
+	(is-a USER)
+	(role concrete))
+
+(defclass 1_Star
+	(is-a Rate)
+	(role concrete))
+
+(defclass 2_Star
+	(is-a Rate)
+	(role concrete))
+
+(defclass 3_Star
+	(is-a Rate)
+	(role concrete))
+
+(defclass 4_Star
+	(is-a Rate)
+	(role concrete))
+
+(defclass 5_Star
+	(is-a Rate)
+	(role concrete))
+
+(defclass Price
+	(is-a USER)
+	(role concrete))
+
+(defclass Free
+	(is-a Price)
+	(role concrete))
+
+(defclass Paid
+	(is-a Price)
+	(role concrete))
+
+(defclass Age
+	(is-a USER)
+	(role concrete))
+
+(defclass Children
+	(is-a Age)
+	(role concrete))
+
+(defclass Adults
+	(is-a Age)
+	(role concrete))
+
+(defclass All
+	(is-a Age)
+	(role concrete))
+
+(defclass App
+	(is-a USER)
+	(role concrete)
+	(single-slot Phone_Req
+		(type INTEGER)
+		(range 1 3)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Developer
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot OS
+		(type SYMBOL)
+		(allowed-values Both Android iOS)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot hasAge
+		(type SYMBOL)
+		(allowed-values Adults Children All)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot hasCategory
+		(type SYMBOL)
+		(allowed-values Education Games Gastronomy Health Music News Productivity Social_Media Sports Travelling)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot hasPrice
+		(type FLOAT)
+		(range 0.0 %3FVARIABLE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Downloads
+		(type FLOAT)
+		(range 0.0 %3FVARIABLE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot hasRate
+		(type SYMBOL)
+		(allowed-values 1_Star 2_Star 3_Star 4_Star 5_Star)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
